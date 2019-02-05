@@ -1,0 +1,120 @@
+body{
+  font-family: 'Anton', sans-serif;
+}
+
+.footer{
+  margin-top: 5%;
+}
+a{
+  text-decoration : none;
+}
+
+.jumbotron{
+  text-align: center;
+  background: #546563 ;
+}
+
+.user{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-img-top{
+  height: 300px;
+  object-fit: none;
+  object-position: center;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.access{
+  background: #546563;
+  color: black;
+}
+
+.intro{
+  display: none;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.reboursColor{
+  font-size: 50px;
+  color:green;
+}
+
+.reboursColorWarning{
+  font-size: 50px;
+  color:orange;
+}
+
+.reboursColorDanger{
+  font-size: 50px;
+  color:red;
+}
+
+.modalRowReussite{
+  color:green;
+  font-size: 40px;
+}
+
+.modalRowEchec{
+  color:red;
+  font-size: 40px;
+}
+
+.suiPrecMep{
+  margin-top: 30px;
+}
+
+.subMep{
+  margin-top: 30px;
+}
+
+.repMep{
+  margin-left: 200px;
+}
+
+#checkedOK{
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: lightgrey;
+  color: red;
+}
+
+.finTexte{
+  margin-top: 60px;
+}
+
+.finBtn{
+  margin-top: 100px;
+}
